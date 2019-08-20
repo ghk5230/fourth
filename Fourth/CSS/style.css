@@ -1,0 +1,23 @@
+.random{
+ width:100%
+ height:auto;
+ display: flex;
+}
+.img1{
+  width:33.33333%;
+}
+
+@media screen and (max-width:800px) {
+.random {
+  width: 100%;
+  height:auto;
+  display: block;
+}
+}
+@media screen and (max-width:500px) {
+.random {
+  width: 40%;
+  height:auto;
+  display: block;
+}
+}
